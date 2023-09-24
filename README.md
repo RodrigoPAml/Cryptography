@@ -6,6 +6,10 @@ AES - For symmetric encryption
 
 RSA - For asymmetric encryption
 
+Also contains a windows form application to use the algorithms
+
+![image](https://github.com/RodrigoPAml/Cryptography/assets/41243039/4aa28a5b-637b-427d-8dab-867d1f2994fe)
+
 ## AES
 
 AES, or Advanced Encryption Standard, is a widely used symmetric encryption algorithm that is used to secure data. It was established as the encryption standard by the U.S. National Institute of Standards and Technology (NIST) in 2001 and has since become a global encryption standard.
