@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptography", "Cryptography.csproj", "{EA06019F-D389-4CB7-A29C-F2B80AB28320}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cryptography", "Cryptography\Cryptography.csproj", "{727AA68B-115E-4402-A343-72B5BA8A8470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriptoForms", "CriptoForms\CriptoForms.csproj", "{FB23B5B9-59F8-4DBD-BB86-4AD14C361AB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EA06019F-D389-4CB7-A29C-F2B80AB28320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA06019F-D389-4CB7-A29C-F2B80AB28320}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA06019F-D389-4CB7-A29C-F2B80AB28320}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA06019F-D389-4CB7-A29C-F2B80AB28320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727AA68B-115E-4402-A343-72B5BA8A8470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727AA68B-115E-4402-A343-72B5BA8A8470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727AA68B-115E-4402-A343-72B5BA8A8470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727AA68B-115E-4402-A343-72B5BA8A8470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB23B5B9-59F8-4DBD-BB86-4AD14C361AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB23B5B9-59F8-4DBD-BB86-4AD14C361AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB23B5B9-59F8-4DBD-BB86-4AD14C361AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB23B5B9-59F8-4DBD-BB86-4AD14C361AB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {86B72CED-C267-44B2-A79B-DAB4D5204EB2}
+		SolutionGuid = {393B1705-041B-4004-AF85-D327AC7F5DE7}
 	EndGlobalSection
 EndGlobal

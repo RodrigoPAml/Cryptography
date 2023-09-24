@@ -4,6 +4,16 @@ namespace Cryptography.Utils
 {
     public static class Utils
     {
+        public static string ToString(byte[] data)
+        {
+            return Convert.ToBase64String(data);
+        }
+
+        public static byte[] ToByte(string data)
+        {
+            return Convert.FromBase64String(data);
+        }
+
         public static byte[] GenerateRandomKey(int byteLength)
         {
             using (RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider())

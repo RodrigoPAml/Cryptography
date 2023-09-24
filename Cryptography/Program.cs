@@ -13,7 +13,7 @@ namespace Program
 
             var result = AES.Encrypt("text_to_hide", key, iv);
 
-            Console.WriteLine(AES.Decrypt(result, key, iv));
+            Console.WriteLine(AES.Decrypt(result, key, iv)); 
         }
 
         static void ExampleRSA()
