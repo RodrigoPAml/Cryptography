@@ -143,7 +143,7 @@ RSA and AES are cryptographic algorithms used in HTTPS (Hypertext Transfer Proto
 ### Server Certificate:
 
 - **Authentication and Public Key**: In addition to key exchange and data encryption, HTTPS also involves server authentication. The server presents a digital certificate signed by a trusted Certificate Authority (CA). This certificate contains the server's public key (usually an RSA public key) and information about the server's identity.
-  - The client verifies the server's certificate by checking if it is signed by a trusted CA and if it matches the server's hostname.
+  - The client verifies the server's certificate by checking if it is signed by a trusted CA (digital signnature HASH) and if the signature is valid by using the trusted CA public key and also if the server's hostname matches.
   - Usually a digital certificate can have a chain of others certificates that assure trust (root certificates, intermediate certificates and server certificate)
   - This process ensures that the client is communicating with the legitimate server and not an impostor (man-in-the-middle).
 
