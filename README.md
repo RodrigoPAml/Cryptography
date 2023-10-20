@@ -123,7 +123,7 @@ var result = RSA.Encrypt("text_to_hide", publicKey);
 Console.WriteLine(RSA.Decrypt(result, privateKey));
 ```
 
-## How RSA and AES are Used in HTTPS
+## How RSA and AES are Used in HTTPS (HTTP with SSL)
 
 RSA and AES are cryptographic algorithms used in HTTPS (Hypertext Transfer Protocol Secure) to provide security for data transmission over the internet. HTTPS is the secure version of HTTP that uses SSL (Secure Socket Layer) and is widely used to protect sensitive information such as login credentials, financial transactions, and personal data.
 
