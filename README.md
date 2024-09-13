@@ -182,5 +182,7 @@ ECDSA is a form of **digital signature algorithm** based on elliptic curve crypt
 ## HMAC (Hash-based Message Authentication Code)
 HMAC is a specific type of **Message Authentication Code (MAC)** that involves hashing with a secret key to ensure both data integrity and authenticity. It uses a cryptographic hash function such as SHA-256 or SHA-512.
 
+I used HMAC to implement JWT (json web token) in this repository: https://github.com/RodrigoPAml/JWT-HMAC-Authentication
+
 - **Advantages**: Simple to implement, resistant to certain attacks (e.g., length extension attacks).
 - **Use Cases**: Data integrity in secure communication protocols (e.g., TLS, IPsec), API request authentication.
