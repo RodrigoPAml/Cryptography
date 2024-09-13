@@ -6,7 +6,9 @@ AES - For symmetric encryption
 
 RSA - For asymmetric encryption
 
-Also contains a windows form application to use the algorithms
+Also contains a windows form application to use the algorithms RSA and AES
+
+In the end, also speaks about anothers well know algorithms like DSA, ECDSA and HMAC
 
 ![image](https://github.com/RodrigoPAml/Cryptography/assets/41243039/4aa28a5b-637b-427d-8dab-867d1f2994fe)
 
@@ -162,3 +164,23 @@ Here's a simplified step-by-step process of how RSA, AES, and the server's certi
 
 The combination of RSA for key exchange, AES for data encryption, and the server certificate for authentication ensures the confidentiality, integrity, and authenticity of data transmitted over HTTPS. This triple-layered approach allows for efficient and secure communication between clients and servers on the internet.
 
+## Another algorithms
+
+## DSA (Digital Signature Algorithm)
+DSA is a **federal standard for digital signatures**. It was designed for generating and verifying digital signatures, providing data integrity and authentication. DSA relies on the discrete logarithm problem for its security.
+
+- **Advantages**: Open standard, efficient for signing.
+- **Drawbacks**: Slower verification process, vulnerable to certain types of attacks (like the hash collision problem).
+- **Use Cases**: Digital signature for government documents, certificates.
+
+## ECDSA (Elliptic Curve Digital Signature Algorithm)
+ECDSA is a form of **digital signature algorithm** based on elliptic curve cryptography. It provides similar levels of security as DSA but with much smaller key sizes, making it highly efficient for secure communications in resource-constrained environments like mobile devices.
+
+- **Advantages**: Smaller key sizes for equivalent security, faster key generation and signatures.
+- **Use Cases**: Secure messaging, SSL/TLS certificates, blockchain transactions (e.g., Bitcoin, Ethereum).
+
+## HMAC (Hash-based Message Authentication Code)
+HMAC is a specific type of **Message Authentication Code (MAC)** that involves hashing with a secret key to ensure both data integrity and authenticity. It uses a cryptographic hash function such as SHA-256 or SHA-512.
+
+- **Advantages**: Simple to implement, resistant to certain attacks (e.g., length extension attacks).
+- **Use Cases**: Data integrity in secure communication protocols (e.g., TLS, IPsec), API request authentication.
